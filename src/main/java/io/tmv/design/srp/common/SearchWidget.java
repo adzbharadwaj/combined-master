@@ -1,10 +1,9 @@
-package io.tmv.design.srp;
+package io.tmv.design.srp.common;
 
 import com.google.common.util.concurrent.Uninterruptibles;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,8 +11,6 @@ public class SearchWidget extends AbstractComponent {
 
     @FindBy(name = "q")
     private WebElement searchBox;
-
-    private WebDriverWait wait;
 
     public SearchWidget(final WebDriver driver){
         super(driver);

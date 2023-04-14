@@ -1,4 +1,4 @@
-package io.tmv.design.srp;
+package io.tmv.design.srp.common;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
