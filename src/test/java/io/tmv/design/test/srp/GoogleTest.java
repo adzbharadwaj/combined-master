@@ -1,7 +1,8 @@
-package io.tmv.design.test;
+package io.tmv.design.test.srp;
 
 import io.tmv.design.srp.main.GoogleMainPage;
 import io.tmv.design.srp.result.GoogleResultPage;
+import io.tmv.design.test.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
